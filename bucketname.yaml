@@ -7,7 +7,7 @@ Parameters:
     Description: Name of the S3 bucket to create
 
 Resources:
-  MyS3Bucket:
+  MyS3Bucketp:
     Type: AWS::S3::Bucket
     Properties:
       BucketName: !Ref BucketName
