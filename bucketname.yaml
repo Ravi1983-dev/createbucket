@@ -13,6 +13,6 @@ Resources:
       BucketName: !Ref BucketName
 
 Outputs:
-  PrintDBInstanceIdentifier:
+  PrintBucketName:
     Description: The value of the BucketName parameter
     Value: !Ref BucketName
